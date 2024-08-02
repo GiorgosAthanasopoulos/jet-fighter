@@ -1,0 +1,70 @@
+#pragma once
+
+// == WINDOW ==
+#define WIN_FLAGS FLAG_WINDOW_RESIZABLE
+#define WIN_W 1280
+#define WIN_H 720
+#define WIN_TITLE "Jet Fighter"
+#define WIN_FPS 60
+#define WIN_MIN_W 640
+#define WIN_MIN_H 480
+#define WIN_MAX_W 3840
+#define WIN_MAX_H 2160
+#define WIN_BG BEIGE
+
+// == KEYBINDS ==
+#define KEY_EXIT KEY_NULL
+#define KEY_RESTART KEY_SPACE
+#define KEY_MUTE KEY_M
+#define KEY_PAUSE KEY_P
+#define KEY_P1_MOVE_UP KEY_W
+#define KEY_P1_MOVE_DOWN KEY_S
+#define KEY_P1_MOVE_LEFT KEY_A
+#define KEY_P1_MOVE_RIGHT KEY_D
+#define KEY_P2_MOVE_UP KEY_I
+#define KEY_P2_MOVE_DOWN KEY_K
+#define KEY_P2_MOVE_LEFT KEY_J
+#define KEY_P2_MOVE_RIGHT KEY_L
+#define KEY_P1_SHOOT KEY_F
+#define KEY_P2_SHOOT KEY_ENTER
+
+// == DEBUG ==
+#define DEBUG false
+#define DEBUG_HTBX_THICK 1
+#define DEBUG_HTBX_COLOR RED
+
+// == UI ==
+#define SCORE_TEXT_SIZE_RATIO 6
+#define SCORE_TEXT_PADDING 5
+#define SCORE_TEXT_COLOR WHITE
+#define FONT_SIZE 100
+#define LARGE_FONT_SIZE FONT_SIZE * 10
+#define TIMER_COLOR WHITE
+#define TIMER_H 10
+#define WINNER_TEXT_COLOR WHITE
+#define PAUSED_TEXT_COLOR WHITE
+
+// == GAME ==
+#define GAME_TIME 60
+
+// == EXPLOSION ==
+#define EXPLOSION_SIZE_RATIO 11
+#define EXPLOSION_LIFETIME 2.0f
+#define EXPLOSION_BLOOM_SIZE_INTERVAL 10
+#define EXPLOSION_DECAY_SIZE_INTERVAL 10
+
+// == AUDIO ==
+#define MUSIC_VOLUME 1.0f
+#define SOUND_VOLUME 1.0f
+
+// == PLAYER ==
+#define PLAYER_SIZE_RATIO 10
+#define PLAYER_SPEED_RATIO 3
+#define TURN_ANGLE_INTERVAL 3
+#define SHOOT_TIMER 1.0f
+#define FLASH_TIME 1.0f
+#define FLASH_INITIAL_HIDE_TIME 1.0f
+
+// == BULLET ==
+#define BULLET_SIZE_RATIO 30
+#define BULLET_SPEED_RATIO 2
