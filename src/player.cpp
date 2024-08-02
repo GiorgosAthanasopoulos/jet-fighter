@@ -16,12 +16,12 @@ Player::Player(PlayerConfig pc) {
 Player::~Player() {}
 
 std::optional<Bullet *> Player::Update() {
+  HandleFlash();
+  HandleMovement();
   if (flash.flashing) {
-    HandleFlash();
     return {};
   }
 
-  HandleMovement();
   if (auto b = HandleShooting()) {
     return *b;
   }
