@@ -212,5 +212,6 @@ void JetFighter::RegisterHit(int bulletIndex, PlayerId killed) {
     p2.Reset();
   }
 
+  delete bullets[bulletIndex];
   bullets.erase(bullets.begin() + bulletIndex);
 }
